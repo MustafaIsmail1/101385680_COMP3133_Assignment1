@@ -1,5 +1,6 @@
-const User = require("./models/UserModel")
-const Employee = require("./models/EmployeeModel")
+const User = require("./models/UserModel");
+const Employee = require("./models/EmployeeModel");
+
 const resolvers = {
     Query: {
         login: async (parent, args, context, info) => {
@@ -52,4 +53,4 @@ const resolvers = {
     }
 }
 
-module.exports = resolvers
+module.exports = resolvers;
